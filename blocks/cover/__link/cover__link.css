@@ -1,5 +1,5 @@
 .cover__link {
-  width: 1184px;
+  width: calc(100% - 96px);
   min-height: 740px;
   padding-bottom: 92px;
   margin: 0 auto;
@@ -31,4 +31,27 @@
 
 .cover__link:hover::before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    width: 100%;
+    min-height: 480px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    width: 100%;
+    min-height: 200px;
+    padding-bottom: 64px;
+  }
 }

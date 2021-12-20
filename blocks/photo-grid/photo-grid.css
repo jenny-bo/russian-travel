@@ -2,6 +2,5 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  padding-left: 48px;
-  padding-bottom: 92px;
+  padding: 0 48px 92px;
 }

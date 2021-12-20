@@ -1,6 +1,6 @@
 .intro__list {
-  width: 690px;
-  height: 90px;
+  max-width: 690px;
+  max-height: 90px;
   list-style-type: none;
   padding-left: 0;
 }

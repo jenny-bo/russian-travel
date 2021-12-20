@@ -3,3 +3,9 @@
   padding-left: 148px;
   padding-bottom: 92px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding-left: 48px;
+  }
+}
