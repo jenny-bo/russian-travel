@@ -1,6 +1,4 @@
 .intro {
-  max-width: 690px;
-  max-height: 429px;
   padding-left: 148px;
   display: flex;
   flex-direction: column;
@@ -15,14 +13,16 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 720px;
-    padding: 0 24px;
+    width: calc(100% - 48px);
+    margin: 0 auto;
+    padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    max-width: 754px;
-    padding: 0 16px;
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    padding-bottom: 64px;
   }
 }
