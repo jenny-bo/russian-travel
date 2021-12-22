@@ -14,3 +14,9 @@
     width: 100%;
   }
 }
+
+@media screen and (width: 320px) {
+  .intro__text {
+    width: 100%;
+  }
+}
