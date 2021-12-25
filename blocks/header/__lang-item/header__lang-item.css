@@ -1,6 +1,6 @@
 .header__lang-item {
   margin-right: 18px;
-  text-align: end;
+  margin-bottom: 0;
 }
 
 .header__lang-item:last-of-type {
